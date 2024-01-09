@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBISSAdapter", "USBISSAdapter\USBISSAdapter.csproj", "{13A0B108-F319-4110-A77E-1F6EE584571D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBISSAdapterTest", "USBISSAdapterTest\USBISSAdapterTest.csproj", "{19BA2B6B-0598-43F5-9A4A-8330A07B2439}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13A0B108-F319-4110-A77E-1F6EE584571D} = {13A0B108-F319-4110-A77E-1F6EE584571D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A0B108-F319-4110-A77E-1F6EE584571D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A0B108-F319-4110-A77E-1F6EE584571D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A0B108-F319-4110-A77E-1F6EE584571D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A0B108-F319-4110-A77E-1F6EE584571D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BA2B6B-0598-43F5-9A4A-8330A07B2439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BA2B6B-0598-43F5-9A4A-8330A07B2439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BA2B6B-0598-43F5-9A4A-8330A07B2439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BA2B6B-0598-43F5-9A4A-8330A07B2439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C28BB45-3D77-4EC7-86E3-E454A9FBE984}
+	EndGlobalSection
+EndGlobal
