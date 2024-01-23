@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="USBISSAdapter.UsbIssAdapter">
+    <Position X="3.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgIAgAAAAAAAAggAAAAAAQAAAAAAGAAAA=</HashCode>
+      <FileName>UsbIssAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Calibri" Size="7.8" />
+</ClassDiagram>
